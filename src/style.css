@@ -1,0 +1,91 @@
+:root {
+  --border-link: 2px solid #607d8b;
+  --background-link: #263238;
+  --box-shadow: 3px 3px 1px rgb(0, 0, 0, 0.6);
+}
+
+.h1-index {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.h1-index-emoji {
+  font-size: 50px;
+  font-weight: lighter;
+}
+.h1-index-name {
+  font-size: 80px;
+}
+.h2-index {
+  display: flex;
+  justify-content: center;
+  font-weight: lighter;
+}
+.links-index {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.links-index a {
+  border: var(--border-link);
+  padding: 15px 30px;
+  background: var(--background-link);
+  color: white;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
+.back-home {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+.back-home:hover {
+  text-decoration: underline;
+}
+.h1-about {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+.h2-about {
+  display: flex;
+  justify-content: center;
+  font-weight: lighter;
+}
+.h3-about {
+  display: flex;
+  justify-content: center;
+  font-weight: lighter;
+  font-style: italic;
+}
+.description-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 0;
+  margin: 50px 200px;
+  padding-left: 0;
+}
+.description-about div {
+  margin: 20px 50px;
+  word-spacing: 2px;
+  line-height: 2;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 20px;
+}
+#contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  font-size: 40px;
+}
+.email {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+  font-size: 25px;
+  color: grey;
+}
