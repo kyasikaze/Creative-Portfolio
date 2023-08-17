@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet&display=swap");
+
 :root {
   --border-link: 2px solid #607d8b;
   --background-link: #263238;
@@ -33,6 +35,21 @@
   color: white;
   text-decoration: none;
   box-shadow: var(--box-shadow);
+}
+.footer {
+  text-align: center;
+  margin-top: 200px;
+  font-family: "Handjet", cursive;
+  font-size: 20px;
+}
+.foot {
+  text-decoration: none;
+  color: black;
+}
+.foot:hover {
+  cursor: pointer;
+  background: black;
+  color: greenyellow;
 }
 .back-home {
   display: flex;
