@@ -4,6 +4,7 @@
   --border-link: 2px solid #607d8b;
   --background-link: #263238;
   --box-shadow: 3px 3px 1px rgb(0, 0, 0, 0.6);
+  --primary-color: #f1f8e9;
 }
 
 .h1-index {
@@ -78,20 +79,18 @@
 }
 .description-about {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-align: center;
-  margin-left: 0;
-  margin: 50px 200px;
-  padding-left: 0;
+  margin-top: 50px;
 }
 .description-about div {
+  padding: 20px;
   margin: 20px 50px;
   word-spacing: 2px;
   line-height: 2;
   border: 1px solid grey;
   border-radius: 10px;
   padding: 20px;
+  background-color: var(--primary-color);
+  text-align: center;
 }
 #contact {
   display: flex;
