@@ -3,7 +3,7 @@
 :root {
   --border-link: 2px solid #607d8b;
   --background-link: #263238;
-  --box-shadow: 3px 3px 1px rgb(0, 0, 0, 0.6);
+  --box-shadow: 2px 2px 1px rgb(0, 0, 0, 0.6);
   --primary-color: #f1f8e9;
 }
 
@@ -36,6 +36,9 @@
   color: white;
   text-decoration: none;
   box-shadow: var(--box-shadow);
+}
+.links-index a:hover {
+  color: white;
 }
 .footer {
   text-align: center;
