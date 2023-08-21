@@ -1,16 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Handjet&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400;900&display=swap");
 
 :root {
-  --border-link: 2px solid #607d8b;
+  --border-link: 1px solid #607d8b;
   --background-link: #263238;
   --box-shadow: 2px 2px 1px rgb(0, 0, 0, 0.6);
   --primary-color: #f1f8e9;
+  --font-family: "Tektur", cursive;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+.logo {
+  max-width: 150px;
 }
 
 .h1-index {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-top: 200px;
 }
 .h1-index-emoji {
   font-size: 50px;
@@ -22,12 +33,13 @@
 .h2-index {
   display: flex;
   justify-content: center;
-  font-weight: lighter;
+  color: grey;
 }
 .links-index {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 100px;
+  margin-bottom: 150px;
 }
 .links-index a {
   border: var(--border-link);
@@ -38,7 +50,8 @@
   box-shadow: var(--box-shadow);
 }
 .links-index a:hover {
-  color: white;
+  background: white;
+  color: var(--background-link);
 }
 .footer {
   text-align: center;
