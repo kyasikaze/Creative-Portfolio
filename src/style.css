@@ -34,6 +34,7 @@ body {
   display: flex;
   justify-content: center;
   color: grey;
+  text-align: center;
 }
 .links-index {
   display: flex;
@@ -82,25 +83,26 @@ body {
   justify-content: center;
   font-size: 50px;
   margin-top: 200px;
+  text-align: center;
 }
 .h2-about {
   display: flex;
   justify-content: center;
   font-weight: lighter;
+  text-align: center;
 }
 .h3-about {
   display: flex;
   justify-content: center;
   font-weight: lighter;
   font-style: italic;
+  text-align: center;
 }
 .description-about {
   display: flex;
   margin-top: 50px;
 }
-.description-about div {
-  padding: 20px;
-  margin: 20px 50px;
+.description-about .section {
   word-spacing: 2px;
   line-height: 2;
   border: 1px solid grey;
