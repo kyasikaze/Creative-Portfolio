@@ -11,6 +11,9 @@
 
 body {
   font-family: var(--font-family);
+}
+
+.hero {
   background: #e8f5e9;
 }
 
@@ -22,7 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 200px;
+  padding-top: 200px;
 }
 .h1-index-emoji {
   font-size: 50px;
@@ -41,7 +44,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 100px;
-  margin-bottom: 150px;
+  padding-bottom: 150px;
 }
 .links-index a {
   border: var(--border-link);
@@ -54,6 +57,9 @@ body {
 .links-index a:hover {
   background: white;
   color: var(--background-link);
+}
+.container {
+  margin-top: 200px;
 }
 .footer {
   text-align: center;
@@ -70,27 +76,20 @@ body {
   background: black;
   color: greenyellow;
 }
-.back-home {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  color: black;
-}
-.back-home:hover {
-  text-decoration: underline;
-}
 .h1-about {
   display: flex;
   justify-content: center;
-  font-size: 50px;
-  margin-top: 200px;
+  padding-top: 220px;
   text-align: center;
+  font-size: 80px;
 }
 .h2-about {
   display: flex;
   justify-content: center;
   font-weight: lighter;
   text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
 }
 .h3-about {
   display: flex;
@@ -98,6 +97,8 @@ body {
   font-weight: lighter;
   font-style: italic;
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 250px;
 }
 .description {
   margin-top: 200px;
