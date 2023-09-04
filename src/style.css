@@ -61,23 +61,27 @@ body {
 .container {
   margin-top: 200px;
 }
+.portrait {
+  width: 550px;
+}
 .h1-about {
   display: flex;
   justify-content: center;
   padding-top: 220px;
   text-align: center;
-  font-size: 80px;
+  font-size: 60px;
 }
 .h2-about {
   display: flex;
   justify-content: center;
   font-weight: lighter;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 20px;
 }
 .h3-about {
   display: flex;
+  font-size: 20px;
   justify-content: center;
   font-weight: lighter;
   font-style: italic;
