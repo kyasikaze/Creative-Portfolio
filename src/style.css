@@ -16,7 +16,6 @@ body {
 .hero {
   position: relative;
   background-color: #cfd8dc;
-  overflow: hidden;
 }
 .hero:before {
   content: " ";
