@@ -45,7 +45,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-top: 200px;
+  padding-top: 250px;
 }
 .h1-index-emoji {
   font-size: 50px;
@@ -59,7 +59,7 @@ body {
   justify-content: center;
   color: grey;
   text-align: center;
-  padding-bottom: 300px;
+  padding-bottom: 250px;
 }
 .links-index {
   position: relative;
