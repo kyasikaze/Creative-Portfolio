@@ -16,7 +16,7 @@ body {
 .hero {
   background-color: #cfd8dc;
   background-image: url("../media/background.png");
-  opacity: 0.75;
+  background-blend-mode: lighten;
 }
 
 .logo {
