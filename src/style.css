@@ -61,27 +61,14 @@ body {
   text-align: center;
   padding-bottom: 250px;
 }
-.links-index {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-  padding-bottom: 150px;
-}
-.links-index a {
-  border: var(--border-link);
-  padding: 15px 30px;
-  background: var(--background-link);
-  color: white;
-  text-decoration: none;
-  box-shadow: var(--box-shadow);
-}
-.links-index a:hover {
-  background: white;
-  color: var(--background-link);
+.logo-index {
+  max-width: 400px;
 }
 .container {
   margin-top: 200px;
+}
+.container-index {
+  max-width: 1000px;
 }
 .portrait {
   width: 550px;
